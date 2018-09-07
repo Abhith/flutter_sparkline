@@ -4,7 +4,7 @@
 
 Beautiful sparkline charts for Flutter.
 
-![screenshot](screenshots/sparkline.png)
+![screenshot](screenshots/sparkline-screenshot.png)
 
 ## Installation
 
@@ -40,16 +40,15 @@ void main() {
 
 ![base example screenshot](screenshots/example_base.png)
 
-
 ## Customization
 
 ### Sparkline
 
-| Property     | Default          |
-|--------------|:----------------:|
-| lineWidth    | 2.0              |
+| Property     |     Default      |
+| ------------ | :--------------: |
+| lineWidth    |       2.0        |
 | lineColor    | Colors.lightBlue |
-| lineGradient | null             |
+| lineGradient |       null       |
 
 Example:
 
@@ -81,17 +80,17 @@ new Sparkline(
 
 ### Points
 
-| Property   | Default               |
-|------------|:---------------------:|
-| pointsMode | PointsMode.none       |
-| pointSize  | 4.0                   |
+| Property   |        Default        |
+| ---------- | :-------------------: |
+| pointsMode |    PointsMode.none    |
+| pointSize  |          4.0          |
 | pointColor | Colors.lightBlue[800] |
 
-| PointsMode     | Description                               |
-|:--------------:|-------------------------------------------|
+|   PointsMode   | Description                               |
+| :------------: | ----------------------------------------- |
 | none (default) | Do not draw individual points.            |
-| all            | Draw all the points in the data set.      |
-| last           | Draw only the last point in the data set. |
+|      all       | Draw all the points in the data set.      |
+|      last      | Draw only the last point in the data set. |
 
 Example:
 
@@ -121,17 +120,17 @@ new Sparkline(
 
 ### Fill
 
-| Property     | Default               |
-|--------------|:---------------------:|
-| fillMode     | FillMode.none         |
+| Property     |        Default        |
+| ------------ | :-------------------: |
+| fillMode     |     FillMode.none     |
 | fillColor    | Colors.lightBlue[200] |
-| fillGradient | null                  |
+| fillGradient |         null          |
 
-| FillMode       | Description                           |
-|:--------------:|---------------------------------------|
+|    FillMode    | Description                           |
+| :------------: | ------------------------------------- |
 | none (default) | Do not fill, draw only the sparkline. |
-| above          | Fill the area above the sparkline.    |
-| below          | Fill the area below the sparkline.    |
+|     above      | Fill the area above the sparkline.    |
+|     below      | Fill the area below the sparkline.    |
 
 Example:
 
@@ -175,7 +174,7 @@ new Sparkline(
 
 - [x] simple sparkline
 - [x] custom line width
-- [x] custom line color 
+- [x] custom line color
 - [x] optional rounded corners
 - [x] fill
 - [x] embiggen individual points/change color
